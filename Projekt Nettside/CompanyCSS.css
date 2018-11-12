@@ -1,0 +1,113 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ /* overskrift og logo */
+.overskrift {
+	position: fixed;
+	left: 260;
+	top: 0;
+	width: 100%;
+	color: black;
+	height: 150;
+	font-family: calibri;
+	font-style: bold;
+	background-image: linear-gradient(White, Grey);
+}
+
+.logo {
+	width: 58px;
+}
+
+.logo img {
+	position: fixed;
+	left: 0;
+	top: 0;'
+	width: 150;
+	height: 150;
+	background-color: grey;
+	background-image: linear-gradient(White, Grey);
+}
+
+/* Linker */
+.kontakt {
+	position: fixed;
+	top: 86;
+	left: 640;
+	vertical-align: middle;
+	text-align: center;
+	width: 4.8%;
+	height: 1.2%;
+}
+
+.nyheter {
+	position: fixed;
+	top: 86;
+	left: 500;
+	vertical-align: middle;
+	text-align: center;
+	width: 4.8%;
+	height: 1.2%;
+}
+
+.startside  {
+	position: fixed;
+	top: 86;
+	left: 360;
+	vertical-align: middle;
+	text-align: center;
+	width: 4.8%;
+	height: 1.2%;
+}
+
+/* Link Farge */
+a {
+	color: white;
+}
+
+/* Center text */
+
+
+article {
+	left: 30%;
+	padding: 20px;
+	width: auto;
+	height: auto;
+	max-width: 55%;
+	background-color: #f1f1f1;
+	max-height: 80%; 
+}
+
+
+header {
+	padding: 60px;
+}
+
+nav {
+	
+}
+
+.event {
+	width: 80%;
+}
+
+.event img {
+	width: auto;
+	height: auto;
+	max-width: 90%;
+	max-height: 70%
+}
+
+.lanparty {
+	width: 80%;
+}
+
+.lanparty img {
+	width: auto;
+	height: auto;
+	max-width: 90%;
+	max-height: 70%;
+}
